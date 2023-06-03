@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "602628527601",
+    "project_id": "auth-1455c",
+    "storage_bucket": "auth-1455c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602628527601:android:6f3b0f07c0dec01a766050",
+        "android_client_info": {
+          "package_name": "com.miempresa.usocontroles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602628527601-5rcp9r9l3qhsa9kespgqg3ppofcc7pul.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miempresa.usocontroles",
+            "certificate_hash": "82c084beb1348a1736dc607d2839b7d82bc21757"
+          }
+        },
+        {
+          "client_id": "602628527601-k1eq6idg78hdf90rdslcs1on5io29b9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIY6zX8UESBQW05VrMofCEaIQ8_rAQhUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602628527601-k1eq6idg78hdf90rdslcs1on5io29b9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

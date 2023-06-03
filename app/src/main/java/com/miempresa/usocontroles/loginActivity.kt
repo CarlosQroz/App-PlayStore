@@ -5,16 +5,22 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_login.*
+import com.miempresa.usocontroles.databinding.ActivityLoginBinding
+
+
 
 class loginActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityLoginBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        binding = ActivityLoginBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
-        btnLogin.setOnClickListener(){
-            var correo = txtCorreo.text.toString()
-            var contraseña = txtContraseña.text.toString()
+        binding.btnLogin.setOnClickListener(){
+            val correo = binding.txtCorreo.text.toString()
+            val contraseña = binding.txtContraseA.text.toString()
             if (correo == "correodemo@gmail.com"  && contraseña == "passworddemo") {
                 val intent = Intent(this, VerificationActivity::class.java)
                 startActivity(intent)
